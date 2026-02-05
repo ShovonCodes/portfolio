@@ -1,8 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# 🚀 Personal Portfolio
 
-First, run the development server:
+### A Modern VS Code-Themed Developer Portfolio
+
+[![Next.js](https://img.shields.io/badge/Next.js-16.1.4-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.2.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+</div>
+
+---
+
+## ✨ Overview
+
+A sleek, interactive portfolio website styled like Visual Studio Code - the editor developers love! This portfolio showcases projects, skills, and experience in a familiar and engaging interface.
+
+> **💡 Pro Tip:** Navigate through my portfolio just like you would in VS Code - with tabs, sidebars, and keyboard shortcuts!
+
+---
+
+## 🎯 Features
+
+- 🎨 **VS Code UI Theme** - Authentic editor aesthetics with activity bar, sidebar, and status bar
+- 🌗 **Dark Mode Native** - Easy on the eyes, perfect for developers
+- ⚡ **Lightning Fast** - Built with Next.js 16 and optimized for performance
+- 📱 **Fully Responsive** - Seamless experience across all devices
+- 🎭 **Interactive Components** - Dynamic tabs and smooth transitions
+- 🔧 **Easy to Customize** - JSON-based content management
+- ♿ **Accessible** - Built with web accessibility standards in mind
+- 🚀 **SEO Optimized** - Ready for search engines
+
+---
+
+## 🛠️ Tech Stack
+
+<table>
+<tr>
+<td align="center" width="96">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="48" height="48" alt="Next.js" />
+<br>Next.js
+</td>
+<td align="center" width="96">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="48" height="48" alt="React" />
+<br>React
+</td>
+<td align="center" width="96">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript" />
+<br>TypeScript
+</td>
+<td align="center" width="96">
+<img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="48" height="48" alt="Tailwind" />
+<br>Tailwind
+</td>
+</tr>
+</table>
+
+### 📦 Key Dependencies
+
+- **Next.js 16** - React framework with App Router
+- **TypeScript** - Type-safe development
+- **Tailwind CSS v4** - Utility-first styling
+- **Lucide React** - Beautiful icon library
+- **clsx & tailwind-merge** - Smart class name handling
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Node.js 18+ installed
+- npm, yarn, pnpm, or bun package manager
+
+### Installation
+
+1️⃣ **Clone the repository**
+
+```bash
+git clone https://github.com/ShovonCodes/portfolio.git
+cd portfolio
+```
+
+2️⃣ **Install dependencies**
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3️⃣ **Run the development server**
 
 ```bash
 npm run dev
@@ -10,27 +101,140 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4️⃣ **Open your browser**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Navigate to [http://localhost:3000](http://localhost:3000) and see the magic happen! ✨
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📁 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+portfolio/
+├── 📂 app/
+│   ├── 🎨 globals.css          # Global styles
+│   ├── 🏠 page.tsx              # Home page
+│   ├── 📄 layout.tsx            # Root layout
+│   ├── 📂 components/           # Reusable components
+│   │   ├── ActivityBar.tsx      # VS Code activity bar
+│   │   ├── Sidebar.tsx          # Navigation sidebar
+│   │   ├── StatusBar.tsx        # Bottom status bar
+│   │   └── TabBar.tsx           # Tab navigation
+│   ├── 📂 about/                # About page
+│   ├── 📂 experience/           # Experience timeline
+│   ├── 📂 projects/             # Projects showcase
+│   ├── 📂 skills/               # Skills & technologies
+│   ├── 📂 contact/              # Contact form
+│   ├── 📂 data/                 # JSON content data
+│   ├── 📂 types/                # TypeScript types
+│   └── 📂 utils/                # Utility functions
+└── 📂 public/                   # Static assets
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Customization
 
-## Deploy on Vercel
+### Update Your Information
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Edit the portfolio data in `app/data/portfolio.json`:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```json
+{
+  "name": "Your Name",
+  "bio": "Your Bio",
+  "skills": [...],
+  "projects": [...],
+  "experience": [...]
+}
+```
+
+### Modify Theme Colors
+
+Customize colors in `app/globals.css` or Tailwind configuration.
+
+---
+
+## 🔨 Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | 🚀 Start development server |
+| `npm run build` | 🏗️ Build for production |
+| `npm start` | ▶️ Start production server |
+| `npm run lint` | 🔍 Run ESLint |
+
+---
+
+## 📸 Screenshots
+
+<!-- Add your screenshots here -->
+```
+🖼️ Add screenshots of your portfolio here to showcase the design!
+```
+
+---
+
+## 🌐 Deployment
+
+### Deploy on Vercel (Recommended)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ShovonCodes/portfolio)
+
+The easiest way to deploy is using [Vercel](https://vercel.com):
+
+1. Push your code to GitHub
+2. Import your repository on Vercel
+3. Vercel will detect Next.js and configure everything automatically
+4. Your portfolio is live! 🎉
+
+### Other Platforms
+
+- **Netlify**: Connect your repo and deploy
+- **AWS Amplify**: Full-stack deployment option
+- **Railway**: One-click deployment
+- **Cloudflare Pages**: Fast global CDN
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ShovonCodes/portfolio/issues).
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 📬 Connect With Me
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](YOUR_PORTFOLIO_URL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ShovonCodes)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](YOUR_TWITTER_URL)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ Star this repo if you found it helpful!
+
+**Made with ❤️ and lots of ☕**
+
+</div>
