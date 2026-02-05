@@ -168,49 +168,6 @@ Customize colors in `app/globals.css` or Tailwind configuration.
 
 ---
 
-## 📸 Screenshots
-
-<!-- Add your screenshots here -->
-```
-🖼️ Add screenshots of your portfolio here to showcase the design!
-```
-
----
-
-## 🌐 Deployment
-
-### Deploy on Vercel (Recommended)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ShovonCodes/portfolio)
-
-The easiest way to deploy is using [Vercel](https://vercel.com):
-
-1. Push your code to GitHub
-2. Import your repository on Vercel
-3. Vercel will detect Next.js and configure everything automatically
-4. Your portfolio is live! 🎉
-
-### Other Platforms
-
-- **Netlify**: Connect your repo and deploy
-- **AWS Amplify**: Full-stack deployment option
-- **Railway**: One-click deployment
-- **Cloudflare Pages**: Fast global CDN
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ShovonCodes/portfolio/issues).
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
