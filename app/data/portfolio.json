@@ -1,0 +1,87 @@
+{
+  "personal": {
+    "name": "Minul Islam Shovon",
+    "nickname": "Shovon",
+    "role": "Full Stack Software Engineer",
+    "bio": "I build accessible, pixel-perfect, and performant web experiences. Experienced in building scalable coding environments and developer tools.",
+    "email": "mainulislam588@gmail.com",
+    "github": "https://github.com/ShovonCodes",
+    "linkedin": "https://linkedin.com/in/mainulislam588",
+    "location": "Dhaka, Bangladesh"
+  },
+  "sections": [
+    {
+      "id": "home",
+      "title": "README.md",
+      "path": "/",
+      "icon": "markdown"
+    },
+    {
+      "id": "about",
+      "title": "about.ts",
+      "path": "/about",
+      "icon": "typescript"
+    },
+    {
+      "id": "experience",
+      "title": "experience.json",
+      "path": "/experience",
+      "icon": "json"
+    },
+    {
+      "id": "projects",
+      "title": "projects.tsx",
+      "path": "/projects",
+      "icon": "react"
+    },
+    {
+      "id": "skills",
+      "title": "skills.css",
+      "path": "/skills",
+      "icon": "css"
+    },
+    {
+      "id": "contact",
+      "title": "contact.html",
+      "path": "/contact",
+      "icon": "html"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Tech Corp",
+      "role": "Senior Frontend Engineer",
+      "period": "2021 - Present",
+      "description": "Leading the frontend team in building a next-generation dashboard.",
+      "tech": ["React", "TypeScript", "Next.js", "GraphQL"]
+    },
+    {
+      "company": "Startup Inc",
+      "role": "Full Stack Developer",
+      "period": "2018 - 2021",
+      "description": "Developed and maintained multiple client-side applications.",
+      "tech": ["Vue.js", "Node.js", "PostgreSQL"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "DevPortfolio",
+      "description": "A VS Code inspired portfolio website generator.",
+      "tech": ["Next.js", "Tailwind CSS"],
+      "link": "https://example.com",
+      "repo": "https://github.com/example/repo"
+    },
+    {
+      "title": "TaskMaster",
+      "description": "AI-powered task management CLI tool.",
+      "tech": ["Rust", "Clap"],
+      "link": "https://example.com",
+      "repo": "https://github.com/example/repo"
+    }
+  ],
+  "skills": {
+    "Languages": ["TypeScript", "JavaScript", "Python", "Rust", "SQL"],
+    "Frameworks": ["React", "Next.js", "Vue", "Express", "Django"],
+    "Tools": ["Git", "Docker", "AWS", "Figma", "VS Code"]
+  }
+}
