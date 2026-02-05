@@ -27,6 +27,11 @@ jobs:
         env:
           NODE_ENV: production
 
+      - name: Add .nojekyll and README
+        run: |
+          touch out/.nojekyll
+          cp GHPAGES_README.md out/README.md
+
       - name: Deploy to username.github.io
         uses: peaceiris/actions-gh-pages@v3
         with:
