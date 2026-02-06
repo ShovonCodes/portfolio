@@ -1,5 +1,5 @@
 import { getPortfolioData } from './utils/data';
-// import Image from 'next/image';
+import { FiGithub, FiLinkedin } from 'react-icons/fi';
 
 export default async function Home() {
   const data = await getPortfolioData();
@@ -15,7 +15,7 @@ export default async function Home() {
           {personal.role}
         </h2>
         
-        <p className="text-lg leading-relaxed text-gray-300 max-w-2xl mb-8 border-l-4 border-vscode-accent pl-4 italic bg-white/5 py-2">
+        <p className="text-lg leading-relaxed text-gray-300 max-w-2xl mb-8 border-l-4 border-vscode-accent px-4 py-4 italic bg-white/5 text-justify">
           {personal.bio}
         </p>
 
@@ -24,16 +24,18 @@ export default async function Home() {
             href={personal.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-2 bg-vscode-accent hover:bg-vscode-selection text-white rounded transition-colors"
+            className="px-6 py-2 bg-vscode-accent hover:bg-vscode-selection text-white rounded transition-colors flex items-center gap-2"
           >
+            <FiGithub className="w-5 h-5" />
             Check out my GitHub
           </a>
           <a
             href={personal.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-2 border border-vscode-text-secondary hover:border-white text-vscode-text-secondary hover:text-white rounded transition-colors"
+            className="px-6 py-2 border border-vscode-text-secondary hover:border-white text-vscode-text-secondary hover:text-white rounded transition-colors flex items-center gap-2"
           >
+            <FiLinkedin className="w-5 h-5" />
             LinkedIn
           </a>
         </div>
@@ -48,19 +50,8 @@ export default async function Home() {
             Welcome to my portfolio! This site is designed to look and feel like a coding environment.
            </p>
            <p>
-            Navigate through the <span className="text-vscode-accent font-bold">files</span> on the left to learn more about my background, skills, and projects.
+            Navigate through the <span className="text-vscode-accent font-bold">files</span> on the left or on the top to learn more about my background, skills, and projects.
            </p>
-           <div className="bg-vscode-sidebar p-4 rounded-md border border-vscode-border">
-              <code className="block text-green-400">
-                $ npm install portfolio
-              </code>
-              <code className="block text-green-400">
-                $ npm start
-              </code>
-              <code className="block text-gray-500 mt-2">
-                &gt; Listening on port 3000...
-              </code>
-           </div>
         </div>
       </div>
     </div>

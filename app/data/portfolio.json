@@ -2,12 +2,13 @@
   "personal": {
     "name": "Minul Islam Shovon",
     "nickname": "Shovon",
-    "role": "Full Stack Software Engineer",
-    "bio": "I build accessible, pixel-perfect, and performant web experiences. Experienced in building scalable coding environments and developer tools.",
+    "role": "Full-Stack Software Engineer",
+    "bio": "Full-Stack Software Engineer specializing in scalable, cloud-native systems with expertise in microservices, CI/CD, and observability. Focused on building reliable, high-performance applications and mentoring teams.",
     "email": "mainulislam588@gmail.com",
     "github": "https://github.com/ShovonCodes",
     "linkedin": "https://linkedin.com/in/mainulislam588",
-    "location": "Dhaka, Bangladesh"
+    "location": "Dhaka, Bangladesh",
+    "hobbies": ["Table Tennis", "Cricket", "Cooking"]
   },
   "sections": [
     {
@@ -49,39 +50,118 @@
   ],
   "experience": [
     {
-      "company": "Tech Corp",
-      "role": "Senior Frontend Engineer",
-      "period": "2021 - Present",
-      "description": "Leading the frontend team in building a next-generation dashboard.",
-      "tech": ["React", "TypeScript", "Next.js", "GraphQL"]
+      "company": "Craftsmen Software",
+      "companyUrl": "https://www.craftsmensoftware.com/",
+      "role": "Software Development Engineer II",
+      "period": "Jan 2023 - Present",
+      "location": "Dhaka, Bangladesh",
+      "description": "Architecting cloud-native authentication systems and leading microservices development for enterprise-scale applications.",
+      "highlights": [
+      "Architected cloud-native authentication service supporting 100K+ monthly requests with 30% latency reduction",
+      "Designed multi-tenant authentication system reducing client setup time by 50% and improving success rates by 20%",
+      "Optimized microservices using AWS Step Functions, SQS, and DynamoDB achieving 99.9% uptime with 5K+ concurrent sessions",
+      "Integrated Sentry and Lumigo monitoring, reducing MTTR by 40% and downtime by 25%",
+      "Led and mentored team of 3 engineers, improving delivery timelines by 20%"
+      ],
+      "tech": ["EC2", "SQS", "SNS", "Step Functions", "CircleCI", "Docker", "TDD"]
     },
     {
-      "company": "Startup Inc",
-      "role": "Full Stack Developer",
-      "period": "2018 - 2021",
-      "description": "Developed and maintained multiple client-side applications.",
-      "tech": ["Vue.js", "Node.js", "PostgreSQL"]
+      "company": "Craftsmen Software",
+      "companyUrl": "https://www.craftsmensoftware.com/",
+      "role": "Software Development Engineer I",
+      "period": "Apr 2021 - Dec 2022",
+      "location": "Dhaka, Bangladesh",
+      "description": "Migrated legacy systems to AWS serverless architecture and built scalable React components.",
+      "highlights": [
+        "Transitioned legacy workloads to AWS serverless microservices, achieving 25% cost savings with 99.9% uptime",
+        "Optimized database access patterns reducing API response times by up to 40%",
+        "Built reusable React/TypeScript components accelerating feature releases by 30%",
+        "Introduced Jest testing framework, increasing code coverage from 20% to 75% and reducing regression bugs by 20%"
+      ],
+      "tech": ["TypeScript", "Jest", "AWS Lambda", "API Gateway", "S3", "Terraform"]
+    },
+    {
+      "company": "Enalo",
+      "companyUrl": "https://enalo.in/",
+      "role": "Software Engineer (Intern)",
+      "period": "Jun 2020 - Jan 2021",
+      "location": "Remote",
+      "description": "Contributed to full-stack product development using Django and React.",
+      "highlights": [
+        "Built scalable web platform using Django REST Framework and React.js",
+        "Designed and deployed 20+ backend APIs improving reliability and enabling faster iteration",
+        "Built responsive UI components reducing page load times by 15%"
+      ],
+      "tech": ["ReactJs", "Python", "JavaScript", "GitHub Actions"]
     }
   ],
   "projects": [
     {
-      "title": "DevPortfolio",
-      "description": "A VS Code inspired portfolio website generator.",
+      "title": "Portfolio",
+      "description": "A VS Code inspired portfolio website.",
       "tech": ["Next.js", "Tailwind CSS"],
-      "link": "https://example.com",
-      "repo": "https://github.com/example/repo"
-    },
-    {
-      "title": "TaskMaster",
-      "description": "AI-powered task management CLI tool.",
-      "tech": ["Rust", "Clap"],
-      "link": "https://example.com",
-      "repo": "https://github.com/example/repo"
+      "link": "https://shovoncodes.github.io/",
+      "repo": "https://github.com/ShovonCodes/portfolio"
     }
   ],
   "skills": {
-    "Languages": ["TypeScript", "JavaScript", "Python", "Rust", "SQL"],
-    "Frameworks": ["React", "Next.js", "Vue", "Express", "Django"],
-    "Tools": ["Git", "Docker", "AWS", "Figma", "VS Code"]
+    "Languages": [
+      { "name": "JavaScript", "icon": "javascript" },
+      { "name": "TypeScript", "icon": "typescript" },
+      { "name": "Python", "icon": "python" }
+    ],
+    "Backend": [
+      { "name": "Node.js", "icon": "nodejs" },
+      { "name": "Express.js", "icon": "express" },
+      { "name": "Fastify", "icon": "fastify" },
+      { "name": "REST APIs", "icon": "djangorest" },
+      { "name": "GraphQL", "icon": "graphql" }
+    ],
+    "Frontend": [
+      { "name": "ReactJs", "icon": "react" },
+      { "name": "NextJs", "icon": "nextjs" },
+      { "name": "HTML5", "icon": "html5" },
+      { "name": "CSS3", "icon": "css3" },
+      { "name": "Material UI", "icon": "materialui" },
+      { "name": "Tailwind CSS", "icon": "tailwindcss" }
+    ],
+    "Databases": [
+      { "name": "DynamoDB", "icon": "dynamodb" },
+      { "name": "PostgreSQL", "icon": "postgresql" },
+      { "name": "Vector Databases", "icon": "vectordb" }
+    ],
+    "Cloud & Infrastructure": [
+      { "name": "EC2", "icon": "ec2" },
+      { "name": "Lambda", "icon": "lambda" },
+      { "name": "API Gateway", "icon": "apigateway" },
+      { "name": "S3", "icon": "s3" },
+      { "name": "SQS", "icon": "sqs" },
+      { "name": "SNS", "icon": "sns" },
+      { "name": "Step Functions", "icon": "stepfunctions" },
+      { "name": "CloudWatch", "icon": "cloudwatch" },
+      { "name": "Terraform", "icon": "terraform" },
+      { "name": "Serverless Framework", "icon": "serverless" }
+    ],
+    "DevOps & Observability": [
+      { "name": "GitHub Actions", "icon": "githubactions" },
+      { "name": "CircleCI", "icon": "circleci" },
+      { "name": "Docker", "icon": "docker" },
+      { "name": "Sentry", "icon": "sentry" }
+    ],
+    "AI-Assisted Development": [
+      { "name": "GitHub Copilot", "icon": "github" },
+      { "name": "OpenAI Codex", "icon": "openal" }
+    ],
+    "System Design": [
+      { "name": "Microservice", "icon": "microservices" },
+      { "name": "Event-driven systems", "icon": "eventdriven" },
+      { "name": "Clean architecture", "icon": "architecture" }
+    ],
+    "Engineering Practices": [
+      { "name": "TDD", "icon": "jest" },
+      { "name": "CI/CD", "icon": "azuredevops" },
+      { "name": "Code Reviews", "icon": "codereviews" },
+      { "name": "Technical Mentorship", "icon": "mentorship" }
+    ]
   }
 }

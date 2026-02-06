@@ -7,6 +7,7 @@ export interface PersonalInfo {
   github: string;
   linkedin: string;
   location: string;
+  hobbies: string[];
 }
 
 export interface Section {
@@ -18,9 +19,11 @@ export interface Section {
 
 export interface Experience {
   company: string;
+  companyUrl: string;
   role: string;
   period: string;
   description: string;
+  highlights: string[];
   tech: string[];
 }
 
@@ -32,8 +35,14 @@ export interface Project {
   repo: string;
 }
 
+export interface Skill {
+  name: string;
+  icon: string;
+  manualIconName?: boolean;
+}
+
 export interface Skills {
-  [category: string]: string[];
+  [category: string]: Skill[];
 }
 
 export interface PortfolioData {

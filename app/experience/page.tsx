@@ -38,12 +38,6 @@ export default async function Experience() {
                      <span className="text-blue-300">&quot;period&quot;</span>: <span className="text-orange-300">&quot;{job.period}&quot;</span>,
                   </span>
               </div>
-               <div className="flex gap-4">
-                  <span className="text-vscode-text-secondary select-none w-8 text-right">{6 + (index * 8)}</span>
-                  <span className="pl-8">
-                     <span className="text-blue-300">&quot;description&quot;</span>: <span className="text-orange-300">&quot;{job.description}&quot;</span>,
-                  </span>
-              </div>
               <div className="flex gap-4">
                   <span className="text-vscode-text-secondary select-none w-8 text-right">{7 + (index * 8)}</span>
                   <span className="pl-8">
@@ -69,9 +63,27 @@ export default async function Experience() {
             {experience.map((job, idx) => (
                 <div key={idx} className="relative pl-6 border-l-2 border-vscode-border">
                     <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-vscode-accent border-4 border-vscode-bg"></div>
-                    <a className="text-xl font-bold text-blue-400 hover:underline cursor-pointer">{job.company}</a>
+                    <a 
+                        href={job.companyUrl} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-xl font-bold text-blue-400 hover:underline cursor-pointer"
+                    >
+                        {job.company}
+                    </a>
                     <div className="text-gray-400 text-sm mb-2">{job.role}  |  {job.period}</div>
-                    <p className="text-gray-300 mb-2">{job.description}</p>
+                    
+                    {job.highlights && job.highlights.length > 0 && (
+                        <ul className="mb-3 space-y-1 text-gray-300 text-sm">
+                            {job.highlights.map((highlight, hIdx) => (
+                                <li key={hIdx} className="flex gap-2">
+                                    <span className="text-vscode-accent mt-1">•</span>
+                                    <span>{highlight}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    )}
+                    
                     <div className="flex flex-wrap gap-2">
                         {job.tech.map(t => (
                             <span key={t} className="px-2 py-0.5 bg-vscode-hover text-xs rounded text-blue-200">{t}</span>

@@ -1,4 +1,5 @@
 import { getPortfolioData } from '../utils/data';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export default async function Contact() {
   const data = await getPortfolioData();
@@ -58,8 +59,12 @@ export default async function Contact() {
                    Send Email
                </a>
                <div className="flex justify-center gap-6 mt-6">
-                    <a href={personal.github} className="text-gray-400 hover:text-white transition-colors">GitHub</a>
-                    <a href={personal.linkedin} className="text-gray-400 hover:text-white transition-colors">LinkedIn</a>
+                    <a href={personal.github} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" title="GitHub">
+                      <FaGithub className="w-6 h-6" />
+                    </a>
+                    <a href={personal.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" title="LinkedIn">
+                      <FaLinkedin className="w-6 h-6" />
+                    </a>
                </div>
           </div>
       </div>
