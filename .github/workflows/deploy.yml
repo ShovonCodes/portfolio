@@ -35,7 +35,7 @@ jobs:
       - name: Deploy to username.github.io
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.GH_PAT }}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: ShovonCodes/ShovonCodes.github.io
           publish_branch: main
           publish_dir: ./out
